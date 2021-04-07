@@ -41,9 +41,9 @@ const App = () => {
   const onChangeValue = (event) => {
     console.log(event.target.value);
     if (event.target.value) {
-      if(event.target.value == 17){
+      if (event.target.value == 17) {
         setScore(prevState => prevState + 10);
-      }else if(event.target.value == 18){
+      } else if (event.target.value == 18) {
         setScore(prevState => prevState + 20);
       }
     } else {
